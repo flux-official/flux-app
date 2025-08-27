@@ -1,0 +1,17 @@
+export const FLUX_ADDRESSES: Record<number, string> = {
+  11155111: '0xf00c51CF495BFFf9D761f4aEAFad850e82771883',
+  1001: '0xc60a367A18A1C72d33BB9370B39ef4A58BE344AD',
+};
+
+export const TOKEN_ADDRESSES_BY_CHAIN: Record<number, Record<'MTK1' | 'MTK2' | 'MTK3', string>> = {
+  11155111: {
+    MTK1: '0xadb14d6652d41064def81e671e37418c7949c18e',
+    MTK2: '0x3e4389a3b9c64d9e4402ed50db8a950134ac32af',
+    MTK3: '0xccb1454d890f8a377b31139d6eea53d3b630be36',
+  },
+  1001: {
+    MTK1: '0xadb14d6652d41064def81e671e37418c7949c18e',
+    MTK2: '0x3e4389a3b9c64d9e4402ed50db8a950134ac32af',
+    MTK3: '0xccb1454d890f8a377b31139d6eea53d3b630be36',
+  },
+};
